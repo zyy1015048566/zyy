@@ -217,7 +217,7 @@ ul{
 .diaryfirst{
     width: 860px ;
     height: 41px;
-    border-bottom: 1px solid #56A573;
+    border-bottom: 1px solid #eee;
 
 }
 /*.diaryfirst a{*/
@@ -301,7 +301,7 @@ ul{
     /*top: 20px;*/
 }
 .tittle{
-    border-bottom: 1px solid #B2CEED;
+    border-bottom: 1px solid #eee;
     height: 41px;
     line-height: 41px;
     font-family: 微软雅黑;
@@ -312,7 +312,7 @@ ul{
     content: '';
     height: 2px;
     width: 60px;
-    background: #009966;
+    background: black;
     position: absolute;
     left: 0;
     bottom: -1px;
