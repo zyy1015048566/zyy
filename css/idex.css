@@ -45,7 +45,7 @@ h1{
     font-size: 22px;
 }
 
-ul{
+.daohang{
     font-size: 16px;
     height: 100%;
     float: left;
@@ -87,7 +87,7 @@ ul{
     height: 260px;
     border-radius: 5px;
 }
-.left .img{
+.leftt .img{
     position: absolute;
     top: 0px;
     left: 0px;
@@ -100,6 +100,7 @@ ul{
     bottom: 0;
     margin: auto;
     left: 20px;
+    z-index: 999;
 }
 .left .leftbtn a img{
     height: 40px;
@@ -113,6 +114,7 @@ ul{
     right: 0;
     margin: auto;
     bottom: 16px;
+    z-index: 999;
 }
 .left .btnlist li a{
     width: 10px;
@@ -137,6 +139,7 @@ ul{
     bottom: 0;
     margin: auto;
     right: 20px;
+    z-index: 999;
 }
 .left .rightbtn a img{
     height: 40px;
@@ -253,6 +256,9 @@ ul{
 }
 .diarysecond .diarysecondA{
     margin-top: 5px;
+    float: left;
+    font-size: 16px;
+    height: 100%;
 }
 .diarysecond .diarysecondright{
     width: 568px;
@@ -261,6 +267,9 @@ ul{
 }
 .diarysecond .diarysecondright li{
     margin-top: 10px;
+}
+.diarysecondright .hot{
+    background: #009966;
 }
 .diarysecond .diarysecondright li span{
     width: 20px;
